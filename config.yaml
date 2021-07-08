@@ -1,0 +1,23 @@
+# the ticker symbol that will be used for each exchange
+TRADING_PAIR:
+  LUNO: XBTZAR
+  VALR: BTCZAR
+
+TRADING_INPUTS:
+  # the amount used for each trade
+  TRADING_AMOUNT: 1000
+  # the number of trades that are made on each exchange before the trading direction is switched
+  TRADES_PER_EXCHANGE: 2
+
+FEES:
+  LUNO: 0.001
+  VALR: 0.001
+
+# this is where you input the key and secret for your own account
+LUNO_API:
+  KEY:
+  SECRET:
+
+VALR_API:
+  KEY:
+  SECRET:

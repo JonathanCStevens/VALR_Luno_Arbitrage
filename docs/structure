@@ -1,0 +1,29 @@
+/VALR_Luno_Arbitrage
+├── /bot
+│   ├── _bot_orderbook.py
+│   ├── _bot_ticker.py
+│   ├── api_luno.py
+│   ├── api_valr.py
+│   ├── liquidity_screening.py
+│   ├── record_liquidity.py
+│   ├── record_portfolio_balances.py
+│   ├── record_transactions.py
+│   ├── reset_balances.py
+│   └── test.py
+│
+├── /data
+│   ├── luno_btc
+│   ├── luno_zar
+│   ├── next_buy_on
+│   ├── spread_v_required_spread
+│   ├── trade_tracker
+│   ├── valr_btc
+│   └── valr_zar
+│
+├── /data
+│   └── structure
+├── /venv
+├── config.yaml
+├── requirements.txt
+├── LICENSE
+└── README.md
