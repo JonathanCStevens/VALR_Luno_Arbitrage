@@ -28,8 +28,10 @@ client = Client(api_key_id=LUNO_API_KEY, api_key_secret=LUNO_API_SECRET)
 
 def luno_order_book(currency_pair):
     try:
-        response = client.get_order_book(pair=currency_pair)
-        return response
+        endpoint_full = f"https://api.luno.com/api/1/orderbook_top?pair={currency_pair}"
+        headers = {}
+        response = requests.get(url=endpoint_full, headers = headers)
+        return response.json()
     except Exception as e:
         print(f"Error {e} occurred in getting the Luno order book, sleeping for 30 seconds before trying again")
         time.sleep(30)
