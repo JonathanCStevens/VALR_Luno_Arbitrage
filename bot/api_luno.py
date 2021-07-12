@@ -32,6 +32,7 @@ def luno_order_book(currency_pair):
         headers = {}
         response = requests.get(url=endpoint_full, headers = headers)
         return response.json()
+        
     except Exception as e:
         print(f"Error {e} occurred in getting the Luno order book, sleeping for 30 seconds before trying again")
         time.sleep(30)
