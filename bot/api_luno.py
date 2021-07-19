@@ -40,9 +40,13 @@ def luno_order_book(currency_pair):
 
 def get_luno_ticker():
     try:
-        result = client.get_ticker(LUNO_TICKER_SYMBOL)
+        # result = client.get_ticker(LUNO_TICKER_SYMBOL)
+        endpoint_full = f"https://api.luno.com/api/1/ticker?pair=XBTZAR"
+        headers = {}
+        response = requests.get(url=endpoint_full, headers = headers)
+        #PAIR parameter is still hard-coded in - it is not dynamically receiving the parameter like in the order book function
         # print(result)
-        return result
+        return response
 
     except Exception as e:
         print(f"Error {e} occurred in get_ticker, sleeping for 30 seconds before trying again")
