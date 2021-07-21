@@ -15,9 +15,9 @@ FEES:
 
 # this is where you input the key and secret for your own account
 LUNO_API:
-  KEY:
-  SECRET:
+  KEY: kh53bxyc2c2tg
+  SECRET: skHcGzfRb-ht9t9Y-qBCvwu07lBubZsIQwHqouKJeCg
 
 VALR_API:
-  KEY:
-  SECRET:
+  KEY: b1f3012a2eb8d56ee0955b4b8b83e4006963263078049fb0e5a3505520feac9d
+  SECRET: 2962a7c0c8d48a046f6e997a0ec442965c037517ef2cc80adf5f95d58aaf825a
