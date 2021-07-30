@@ -144,3 +144,5 @@ def place_valr_simple_sell(amount):
 # place_valr_simple_sell(amount="1000")
 # time.sleep(1)
 print(place_valr_simple_sell(amount="1000"))
+
+# HELP DOES THIS WORK?
